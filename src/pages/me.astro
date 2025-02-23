@@ -5,7 +5,7 @@ import { ME_DESCRIPTION } from "../config";
 import ContactRow from "../components/contact-row.astro";
 import { WORK_EXPERIENCE } from "../config";
 import { Image } from "astro:assets";
-import { PROJECTS,ME_AVATAR } from "../config";
+import { PROJECTS, ME_AVATAR } from "../config";
 import { Icon } from "astro-icon/components";
 ---
 
@@ -14,8 +14,13 @@ import { Icon } from "astro-icon/components";
     <div class="bg-neutral-900/60 rounded-lg p-4 mt-[60px] md:mt-[80px] mb-6">
       <div class="flex-col md:flex-row flex items-center justify-center gap-6 md:gap-10 h-full text-white">
         <div>
-          <h3 class="text-white text-2xl font-logo">Hello, I am Leo!</h3>
+          <h3 class="text-white text-2xl font-logo">Hello, I am Ignacio Abrams!</h3>
           <p class="font-mono text-slate-400 my-6 mb-10" set:html={ME_DESCRIPTION} />
+          <p class="font-mono text-slate-400 my-6 mb-10">
+            The tech field is constantly evolving and I am committed to continue learning and adapting my tech stack to
+            deliver effective and innovative solutions. I am currently into AI and Automation, and I intend to leverage
+            them to increase my productivity in developing my projects.
+          </p>
           <h3 class="text-white text-2xl font-logo mb-5">Contacts</h3>
           <ContactRow />
         </div>
@@ -40,12 +45,7 @@ import { Icon } from "astro-icon/components";
                 ))
               }
             </ul>
-            <a
-              class="px-4 py-2 border border-slate-400"
-              target="_blank"
-              href="YOUR_RESUME_URL"
-              download="Resume.pdf"
-            >
+            <a class="px-4 py-2 border border-slate-400" target="_blank" href="YOUR_RESUME_URL" download="Resume.pdf">
               <div class="flex gap-2 items-center text-white justify-center">
                 <span>Open CV</span>
               </div>
@@ -66,7 +66,13 @@ import { Icon } from "astro-icon/components";
                 id={item.id}
               >
                 <div class="max-w-full md:max-w-40 w-full aspect-[4/3] overflow-hidden rounded-lg bg-white ">
-                  <Image width="160" height="120" src={item.image} alt={item.title} class="object-cover h-full w-full" />
+                  <Image
+                    width="160"
+                    height="120"
+                    src={item.image}
+                    alt={item.title}
+                    class="object-cover h-full w-full"
+                  />
                 </div>
                 <div>
                   {item.externalLink ? (

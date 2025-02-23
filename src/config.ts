@@ -1,14 +1,14 @@
 
 
 export const SITE_FAVICON = "/favicon.png";
-export const SITE_LOGO = "/leo.png";
-export const SITE_TITLE = "LEO";
+export const SITE_LOGO = "/profile.JPG";
+export const SITE_TITLE = "Ignacio Abrams";
 export const SITE_URL = "https://astro-theme-leo.muji.dev";
 export const SITE_DESCRIPTION =
   `
   This is a space where creativity meets logic. As a passionate frontend engineer and dreamer inspired by the vastness of space, Leo shares insights on cutting-edge web development, personal projects, and the exploration of new technologies. With a unique blend of technical expertise and a love for innovation, this blog is a journey into problem-solving, design, and the limitless possibilities of the digital universe.
 `;
-export const ME_AVATAR = "/leo.png";
+export const ME_AVATAR = "/profile.JPG";
 export const LANGUAGES = ['en', 'zh'];
 
 export const MENUS = [
@@ -24,52 +24,38 @@ export const MENUS = [
   },
   {
     title: "Github",
-    link: "YOUR_GITHUB_URL",
+    link: "https://github.com/ignabrams",
     target: "_blank",
     icon: "github",
   },
 ];
 
-export const FOOTER_CONTENT = "Mr.Leo. All rights reserved.";
+export const FOOTER_CONTENT = "Ignacio Abrams All rights reserved.";
 
 export const CONTACTS = {
-  linkedIn: "YOUR_LINKEDIN_URL",
-  github: "YOUR_GITHUB_URL",
-  email: "mailto:YOUR_EMAIL",
+  linkedIn: "https://linkedin.com/in/ignacio-abrams",
+  github: "https://github.com/ignabrams",
+  email: "mailto:abramsignacio@gmail.com",
 };
 
-export const SLOGAN = "To infinity and beyond!";
+export const SLOGAN = `"The secret of change is to focus all your energy not on fighting the old, but on building the new."`;
 export const ME_DESCRIPTION =
-  `Hi, I’m Leo! Since childhood, I’ve dreamed of becoming an astronaut, which shaped my passion for exploration and curiosity about the unknown. I’m a creative thinker with strong logical reasoning skills, allowing me to approach challenges innovatively yet systematically. I thrive on discovering new ideas and pushing boundaries, whether in my work or personal growth. My motto, “Explore endlessly, surpass yourself,” reflects my dedication to learning and achieving. Combining creativity with analytical thinking, I’m eager to contribute to meaningful projects and explore new opportunities!`;
+  `I am a Software Developer and AI enthuasist with experience in programming front-end and back-end. I have created projects with various frameworks and programming languages.`;
 
 
 export const WORK_EXPERIENCE = [
   {
-    company: "Galactic Ventures",
-    position: "Innovation Explorer",
+    company: "Evertec",
+    position: "Software Developer",
+    startDate: "2024",
+    endDate: "2025",
+  },
+  
+  {
+    company: "Data Access",
+    position: "IT Helpdesk",
     startDate: "2022",
-    endDate: "2024",
-  },
-  
-  {
-    company: "Interstellar Academy Program",
-    position: "Astro Trainee",
-    startDate: "2023",
     endDate: "2023",
-  },
-  
-  {
-    company: "LunarTech Solutions",
-    position: "Creative Logic Engineer",
-    startDate: "2020",
-    endDate: "2022",
-  },
-  
-  {
-    company: "Cosmic Coders Inc.",
-    position: "Frontend Navigator",
-    startDate: "2018",
-    endDate: "2020",
   },
   
 ];
