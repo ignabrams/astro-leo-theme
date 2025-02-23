@@ -64,14 +64,14 @@ export const WORK_EXPERIENCE = [
 export const PROJECTS = [
     {
       id: "my-first-rocket-launch",
-      title: "My First Rocket Launch",
-      description: "This is the first rocket launch I participated in. I was a member of the Interstellar Academy Program, and I was responsible for the rocket's navigation system. I was able to successfully navigate the rocket to the target destination.",
-      image: 'https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      title: "Theia AKG",
+      description: "Theia AKG is a web-app that aims to simplify the process of analyzing metadata by leveraging an intuitive interface and a graph database. This approach streamlines the search and analysis of interconnected data, facilitating the retrieval of pertinent information.",
+      image: 'https://www.patterns.dev/img/reactjs/react-logo@3x.svg',
       externalLink: "https://www.nasa.gov/",
       details: [
-        "Explaining space exploration concepts through creative illustrations.",
-        "Making it easier for aspiring explorers to understand the basics of interstellar travel.",
-        "Won an award in the interstellar creativity competition.",
+        "UI was designed and developed using React and CSS.",
+        "Implemented a Neo4J graph database to store and retrieve metadata.",
+        ,
       ],
     },
   ];
