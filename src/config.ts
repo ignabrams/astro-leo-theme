@@ -1,15 +1,15 @@
 
 
 export const SITE_FAVICON = "/favicon.png";
-export const SITE_LOGO = "/profile.JPG";
+//export const SITE_LOGO = "/profile7.JPG";
 export const SITE_TITLE = "Ignacio Abrams";
 export const SITE_URL = "https://astro-theme-leo.muji.dev";
 export const SITE_DESCRIPTION =
   `
-  This is a space where creativity meets logic. As a passionate frontend engineer and dreamer inspired by the vastness of space, Leo shares insights on cutting-edge web development, personal projects, and the exploration of new technologies. With a unique blend of technical expertise and a love for innovation, this blog is a journey into problem-solving, design, and the limitless possibilities of the digital universe.
+  This is a space for learning and connecting. As a passionate Full Stack Developer, Ignacio shares insights on cutting-edge web development, personal projects, and the exploration of new AI technologies. With a unique blend of technical expertise and a love for innovation, this blog is a journey into problem-solving, AI breakdowns, and the limitless possibilities of the digital universe.
 `;
-export const ME_AVATAR = "/profile.JPG";
-export const LANGUAGES = ['en', 'zh'];
+export const ME_AVATAR = "/profile7.JPG";
+export const LANGUAGES = ['en', 'spn'];
 
 export const MENUS = [
   {
@@ -40,7 +40,7 @@ export const CONTACTS = {
 
 export const SLOGAN = `"The secret of change is to focus all your energy not on fighting the old, but on building the new."`;
 export const ME_DESCRIPTION =
-  `I am a Software Developer and AI enthuasist with experience in programming front-end and back-end. I have created projects with various frameworks and programming languages.`;
+  `I am a Full Stack Developer with experience in a variety of frameworks and programming languages. I specialize in building websites, applications, and APIs, as well as integrating Artificial Intelligence (AI) solutions. As AI continues to evolve, my goal is to help others understand and implement its capabilities. `;
 
 
 export const WORK_EXPERIENCE = [
@@ -63,14 +63,14 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
     {
-      id: "my-first-rocket-launch",
+      id: "theia-akg",
       title: "Theia AKG",
-      description: "Theia AKG is a web-app that aims to simplify the process of analyzing metadata by leveraging an intuitive interface and a graph database. This approach streamlines the search and analysis of interconnected data, facilitating the retrieval of pertinent information.",
+      description: "Theia AKG is a web-app that streamlines the process of analyzing interconnected data, facilitating the retrieval of pertinent information from a graph database (Neo4J). The app was designed to help users navigate through complex data and provide an intuitive user experience.",
       image: 'https://www.patterns.dev/img/reactjs/react-logo@3x.svg',
       externalLink: "https://www.nasa.gov/",
       details: [
-        "UI was designed and developed using React and CSS.",
-        "Implemented a Neo4J graph database to store and retrieve metadata.",
+        "UI was designed and developed using React, Ant Design UI Library, and CSS.",
+        "Integrated a Neo4J graph database to store and retrieve metadata.",
         ,
       ],
     },
