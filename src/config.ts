@@ -1,7 +1,7 @@
 
 
 export const SITE_FAVICON = "/favicon.png";
-//export const SITE_LOGO = "/profile7.JPG";
+export const SITE_LOGO = "/bluemoon.png";
 export const SITE_TITLE = "Ignacio Abrams";
 export const SITE_URL = "https://astro-theme-leo.muji.dev";
 export const SITE_DESCRIPTION =
